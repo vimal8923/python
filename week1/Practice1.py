@@ -1,24 +1,12 @@
-integers = [1,2,3,4,5,6,7,8,9,10]
-print(integers)
-squared_integer= [x**2 for x in integers]
-print(squared_integer)
-
-print("--------------------------------------------------------------------------------")
-
-number=[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+number = [1,2,3,4,5,6,7,8,9,10]
+print("Squares of 1 to 10 : ")
 print(number)
-number[2]= 50
+number[2]=50
+print("\n After Replacing third element with 50 : ")
 print(number)
-
-print("---------------------------------------------------------------------------------------------------------")
-
-number=[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+number.insert(4,25)
+print("\n After inserting new element to fifth position : ")
 print(number)
-number.insert(5,25)
-print(number)
-
-print("---------------------------------------------------------------------------------")
-number=[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
-print(number)
-number.pop(-1)
+number.pop()
+print("\n After removing last element : ")
 print(number)
